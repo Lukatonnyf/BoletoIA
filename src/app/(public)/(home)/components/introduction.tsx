@@ -3,7 +3,7 @@ import { ArrowRight, Bot, CircleCheckBig } from "lucide-react";
 
 export default function Introduction() {
   return (
-    <div className="h-full flex flex-col justify-center items-center ">
+    <div className="h-full flex flex-col justify-center items-center bg-[#ffffff] ">
       <section className="max-w-5xl py-5 md:py-20 md:px-4 flex flex-col items-center justify-center">
 
         <div className="flex items-center justify-center bg-[#EDF1FB] rounded px-2  py-1 text-[#6087DC] border border-[#6087DC]/40
@@ -49,13 +49,10 @@ export default function Introduction() {
             <CircleCheckBig className="w-4 h-4 text-[#6087DC] mr-2" />
             Suporte 24/7
           </p>
-
         </div>
 
 
       </section>
-
-
     </div>
   )
 }
